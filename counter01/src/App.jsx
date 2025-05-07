@@ -8,15 +8,25 @@ function App() {
 // let counter =10
 const addValue =()=>{
   if(counter < 20){
-    counter = counter + 1
+    // counter = counter + 1
     console.log("counter", counter)
-    setCounter(counter)
+    setCounter(counter = counter+1)
+    // for interview
+    // setCounter(preCounter => preCounter+1)
+    // setCounter(preCounter => preCounter+1)
+    // setCounter(preCounter => preCounter+1)
+    // setCounter(preCounter => preCounter+1)
+    // setCounter(preCounter => preCounter+1)
+
   }
 }
 const removeValue =()=>{
   if(counter >0){
-    counter = counter -1
-    setCounter(counter)
+    // counter = counter -1
+    setCounter(counter-1)
+    setCounter(counter-1)
+    setCounter(counter-1)
+    setCounter(counter-1)
   }
 }
 
