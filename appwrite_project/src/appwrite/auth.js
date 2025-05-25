@@ -1,5 +1,5 @@
 import config from "../config/config";
-import {client , Account, ID, Client} from "appwrite";
+import {Client , Account, ID} from "appwrite";
 
 export class AuthService{
     client = new Client();
@@ -54,5 +54,5 @@ async logout(){
 }
 }
 const authService = new AuthService();
-export default AuthService
+export default authService
 
