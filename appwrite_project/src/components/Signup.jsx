@@ -58,7 +58,8 @@ function Signup() {
                        label="Password"
                        type="Password"
                        placeholder="Enter your Password"
-                        {...register,("password",{required:true,})}
+                        {...register("password",
+                            {required:true,})}
                         />
                         <button
                         type='submit'

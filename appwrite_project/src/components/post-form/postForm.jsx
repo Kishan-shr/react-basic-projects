@@ -117,4 +117,4 @@ return(
         </form>
 )
 }
-export default Postform
+export default PostForm
