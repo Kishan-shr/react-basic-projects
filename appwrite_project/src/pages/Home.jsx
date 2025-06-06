@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import appwriteService from "../appwrite/confg"
 import { Container } from '../components'
-import {PostCard} from '../components/postCard'
+import PostCard from '../components/postCard'
 function Home() {
     const [posts ,setPosts] = useState()
     useEffect(()=>{

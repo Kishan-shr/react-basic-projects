@@ -9,6 +9,11 @@ import { AuthLayout } from './components/index.js'
 import Login from './components/Login.jsx'
 import Home from './pages/Home.jsx'
 import PostCard from './components/postCard.jsx'
+import Signup from './components/Signup.jsx'
+import AllPosts from './pages/AllPosts.jsx'
+import AddPost from './pages/AddPost.jsx'
+import EditPost from './pages/EditPost.jsx'
+import Post from './pages/Post.jsx'
 
 const router = createBrowserRouter([{
   path:'/',
