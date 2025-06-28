@@ -17,7 +17,7 @@ setValue({
 
   return (
     <>
-    {/* this helps to render as many times as required this does not react it use basic js concept pass by value and pass by reference */}
+    {/* this helps to render as many times as required this does not use react it use basic js concept pass by value and pass by reference */}
      <h1>Main value : {value.value}</h1> 
      <button
      onClick={click}
